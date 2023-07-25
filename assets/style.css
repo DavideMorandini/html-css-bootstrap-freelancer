@@ -4,3 +4,31 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+    border: 1px solid black;
+    height: 800px; /* auto */
+}
+
+div.row {
+    border: 1px solid red;
+    height: 700px;
+}
+
+div.card {
+    border: 1px solid green;
+    width: 50%;
+    height: auto;
+}
+
+div.card-body {
+    border: 1px solid violet;
+    width: 100%;
+}
+
+div.my_c {
+    background-color: #1abc9c;
+}
