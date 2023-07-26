@@ -28,14 +28,8 @@ body {
     height: auto;
 }
 
-.card-img-top {
-    /* width: 100%; */
-    height: auto;
-}
-
 div.card-body {
     border: 2px solid violet;
-    /* width: 100%; */
 }
 
 .my_c_ma {
@@ -58,4 +52,70 @@ div.card-body {
    border: 1px solid white;
    width: 50px;
    height: 50px;
+}
+
+.row_star {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_star {
+    /* border: 1px solid green; */
+}
+
+.fa-star {
+    font-size: 1.875rem;
+}
+
+.star_white {
+    color: white;
+}
+
+.hor_bar_equal {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 0.3125rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hor_bar_black {
+    /* border: 1px solid black; */
+    width: 15%;
+    /* max-width: 250px; */
+    height: 0.3125rem;
+    background-color: black;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hor_bar_white {
+    /* border: 1px solid black; */
+    width: 10%;
+    /* max-width: 250px; */
+    height: 0.3125rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_c_btn {
+    background-color: #1abc9c;
 }
